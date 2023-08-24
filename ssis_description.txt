@@ -1,0 +1,9 @@
+The SSIS (SQL Server Integration Services) package plays a pivotal role in our data transformation and migration project. This package orchestrates the seamless transition from old_dealer_id to new_dealer_id across various data tables.
+
+Utilizing backend SSIS processes, the package systematically updates dealer_id references while intelligently preserving the historical context through retention of old_dealer_id. Additionally, rows with updated dealer_ids are automatically relocated to a dedicated parking table.
+
+This package serves as the backbone of our data cleaning initiative, ensuring data accuracy and maintaining historical integrity. It empowers the client to harness accurate insights and make informed decisions.
+
+Please note that specific implementation details are omitted to respect client confidentiality.
+
+For inquiries, please contact [aravindrajamani2@gmail.com].
